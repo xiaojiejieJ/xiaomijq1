@@ -2,7 +2,7 @@
 * @Author: Dell
 * @Date:   2018-09-13 16:36:57
 * @Last Modified by:   nanjiao
-* @Last Modified time: 2018-09-16 17:05:58
+* @Last Modified time: 2018-09-17 11:10:16
 */
 //页面加载
 window.onload=function(){
@@ -395,7 +395,7 @@ let jdfu = document.querySelectorAll(".household .top .house");
 
 
 // 返回顶部
-    let back=document.querySelectorAll(".sort ul li")[3];
+    let back=document.querySelectorAll(".bar .bar-text")[3];
     // console.log(back);
     back.onclick=function(){
         animate(document.documentElement,{scrollTop:0},600);
